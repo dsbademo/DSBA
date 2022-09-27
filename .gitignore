@@ -2,3 +2,4 @@
 *.png
 __pycache__/utils.cpython-39.pyc
 .ipynb_checkpoints/Random_Forest_Iris-checkpoint.ipynb
+.DS_Store
