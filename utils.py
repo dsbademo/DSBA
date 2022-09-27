@@ -38,7 +38,7 @@ def plot_decision_regions(X_train, X_test, y_train, y_test, classifier, xlabel, 
                     c=colors[idx],
                     marker=markers[idx], 
                     label=cl, 
-                    edgecolor='black')
+                    facecolor='black')
 
     # highlight test samples
     if test_idx:
@@ -48,7 +48,7 @@ def plot_decision_regions(X_train, X_test, y_train, y_test, classifier, xlabel, 
         plt.scatter(X_test[:, 0],
                     X_test[:, 1],
                     c=colors[idx],
-                    edgecolor='black',
+                    facecolor='black',
                     alpha=1.0,
                     linewidth=1,
                     marker='o',
