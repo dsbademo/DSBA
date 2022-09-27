@@ -47,7 +47,7 @@ def plot_decision_regions(X_train, X_test, y_train, y_test, classifier, xlabel, 
 
         plt.scatter(X_test[:, 0],
                     X_test[:, 1],
-                    c='',
+                    c=colors[idx],
                     edgecolor='black',
                     alpha=1.0,
                     linewidth=1,
