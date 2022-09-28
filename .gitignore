@@ -13,3 +13,5 @@ __pycache__/utils.cpython-39.pyc
 .ipynb_checkpoints/TF_Hello_World-checkpoint.ipynb
 .ipynb_checkpoints/TF_Keras_boston-checkpoint.ipynb
 *.box
+xgb1.pdf
+.ipynb_checkpoints/XGBoost_boston-checkpoint.ipynb
