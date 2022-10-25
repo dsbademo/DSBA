@@ -96,7 +96,7 @@ def plot_decision_regions2(X, y, classifier, test_idx=None, resolution=0.02):
     for idx, cl in enumerate(np.unique(y)):
         plt.scatter(x=X[y == cl, 0], 
                     y=X[y == cl, 1],
-                    alpha=0.8, 
+                    alpha=0.1, 
                     c=colors[idx],
                     marker=markers[idx], 
                     label=f'Class {cl}', 
